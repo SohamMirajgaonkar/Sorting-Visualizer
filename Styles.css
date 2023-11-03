@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sort-container {
+    display: flex;
+    align-items: flex-end;
+    height: 400px;
+    width: 80%;
+    border: 1px solid #ccc;
+}
+
+.sort-container div {
+    width: 20px;
+    margin: 0 2px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+}
